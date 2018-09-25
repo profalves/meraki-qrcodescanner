@@ -1,0 +1,43 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "users": [
+    { 
+      "id": 1, 
+      "nome": "Administrador",
+      "usuario": "admin",
+      "senha": "123",
+      "funcao": "Administrador",
+      "empresa": "Empresa X",
+      "tipo": "colaborador"
+    },
+    { 
+      "id": 2, 
+      "nome": "Fulano de Tal",
+      "usuario": "fulano",
+      "senha": "1234",
+      "funcao": "tec. manutenção",
+      "empresa": "Empresa X",
+      "tipo": "userFinal"
+    },
+    { 
+      "id": 3, 
+      "nome": "João Silva",
+      "usuario": "colaborador",
+      "senha": "1234",
+      "funcao": "tec. manutenção",
+      "empresa": "Empresa X",
+      "tipo": "colaborador"
+    }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
